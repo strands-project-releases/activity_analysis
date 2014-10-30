@@ -1,0 +1,12 @@
+Source: ros-indigo-strands-engagement-checker
+Section: misc
+Priority: extra
+Maintainer: Mohannad Al Omari <omari.1988@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-bayes-people-tracker, ros-indigo-catkin, ros-indigo-rospy, ros-indigo-std-msgs
+Homepage: https://github.com/strands-project/activity_analysis
+Standards-Version: 3.9.2
+
+Package: ros-indigo-strands-engagement-checker
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-bayes-people-tracker, ros-indigo-rospy, ros-indigo-std-msgs
+Description: The engagement_checker package
